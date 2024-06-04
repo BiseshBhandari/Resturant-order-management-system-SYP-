@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cart-heading {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border: none;
+}
+
+th{
+    padding: 20px;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    padding: 12px;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+.total-price {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.empty-cart-message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-style: italic;
+    color: rgba(128, 128, 128, 0.58);
+}
+
+
+
+button[type="submit"] {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc4c34;
+}
+
+.message {
+    padding: 10px;
+    width: 300px;
+    margin: -10px auto;
+    margin-bottom: 3px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-style: oblique;
+}
+
+.success {
+    background-color: #d4edda; /* Green */
+}
+
+.error {
+    background-color:#f45b5b; /* Red */
+
+}

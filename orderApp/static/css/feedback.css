@@ -1,0 +1,116 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -7px;
+    margin: auto;
+    border-bottom: 2px solid orange;
+}
+.logo{
+    height: 110px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.logo img{
+    height: 85px;
+}
+.navi{
+    padding: 1px;
+}
+.navi ul{
+    display: flex;
+    list-style: none;
+    margin-top: 38px;
+}
+.navi ul li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.navi ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:Inter, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    padding: 5px;
+    margin: 20px;
+    color: orange;
+}
+
+.navi ul li a:active{
+    border-bottom: 5px solid white;            
+}
+
+.log-out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    margin-right: 50px;
+    padding: 5px;
+    height: 100%;;
+
+}
+
+.log-out button{
+    height: 40px;
+    width: 110px;
+}
+.log-out button:hover{
+    color: white;
+}
+
+
+.container {
+    width: 35%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 520px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 20px;
+    max-height: 60px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
